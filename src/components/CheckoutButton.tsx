@@ -62,9 +62,7 @@ const CheckoutButton = ({ onCheckout, disabled, isLoading }: Props) => {
           title="Confirm Deliery Details"
           buttonText="Continue to payment"
         />
-        <Button onClick={onLogin} className="bg-orange-500 ml-10 ">
-          Continue with Cash on delivery
-        </Button>
+        
       </DialogContent>
     </Dialog>
   );
